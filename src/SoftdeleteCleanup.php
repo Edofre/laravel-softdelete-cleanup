@@ -1,14 +1,12 @@
 <?php
 
-namespace App\Console\Commands;
-
-use Illuminate\Console\Command;
+namespace Edofre\SoftdeleteCleanup;
 
 /**
  * Class SoftdeleteCleanup
- * @package App\Console\Commands
+ * @package Edofre\SoftdeleteCleanup
  */
-class SoftdeleteCleanup extends Command
+class SoftdeleteCleanup extends \Illuminate\Console\Command
 {
     /** @var string */
     protected $signature = 'db:softdelete-cleanup {model_name : The name of the model you want to delete}';
