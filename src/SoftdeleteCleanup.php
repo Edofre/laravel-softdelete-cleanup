@@ -23,15 +23,13 @@ class SoftdeleteCleanup extends \Illuminate\Console\Command
     {
         // Get the playlist from the CLI arguments
         $class_name = $this->argument('model_name');
-        // Fix the class name for models
-        $class = 'App\Models\\' . $class_name;
 
         // Check if the class actually exists
-        if (class_exists($class)) {
+        if (class_exists($class_name)) {
             // Delete all the model
-            $this->deleteModels($class);
+            $this->deleteModels($class_name);
         } else {
-            $this->error("Class does not exist");
+            $this->error("Class not found in system");
             return false;
         }
 
