@@ -28,3 +28,15 @@ protected $commands = [
     ];
 
 ```
+
+## Executing
+
+The following command will then remove all the trashed items from the User, note that the User model is not in the default namespace.
+```
+php artisan db:softdelete-cleanup App\\Models\\User
+```
+
+## Feature requests
+
+* Set the number of days from which the items should be deleted
+* ?
