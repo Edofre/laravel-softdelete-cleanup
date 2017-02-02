@@ -1,0 +1,33 @@
+{
+  "name": "edofre/laravel-softdelete-cleanup",
+  "description": "Console command to cleanup your database from softdeleted models",
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.3.*"
+  },
+  "keywords": [
+    "softdelete",
+    "console",
+    "command",
+    "cleanup",
+    "laravel"
+  ],
+  "homepage": "https://github.com/edofre/laravel-softdelete-cleanup",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edo Freriks",
+      "email": "edofre@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Edofre\\SoftdeleteCleanup\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
