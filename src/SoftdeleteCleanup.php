@@ -31,14 +31,12 @@ class SoftdeleteCleanup extends \Illuminate\Console\Command
             // Delete all the model
             $this->deleteModels($class);
         } else {
-            $this->error(trans('console.class_does_not_exist'));
+            $this->error("Class does not exist");
             return false;
         }
 
         // Notify the CLI that we're done
-        $this->info(trans('console.permanently_deleted_items', [
-            'count_deleted' => $this->item_count,
-        ]));
+        $this->info("$this->item_count items deleted");
     }
 
     /**
