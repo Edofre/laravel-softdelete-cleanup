@@ -6,6 +6,7 @@ Change Log: `laravel-softdelete-cleanup`
 **Date:** 07-Feb-2017
 
 - Add tests
+- Add poser badges to README
 
 ## Version 1.0.1
 
