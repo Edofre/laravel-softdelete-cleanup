@@ -1,6 +1,6 @@
 <?php
 
-namespace Edofre\Sluggable\Test\Integration;
+namespace Edofre\SoftdeleteCleanup\Test\Integration;
 
 use File;
 use Illuminate\Database\Schema\Blueprint;
