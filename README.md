@@ -1,5 +1,10 @@
 # Laravel Softdelete Cleanup
-# WIP
+
+[![Latest Stable Version](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/v/stable)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
+[![Total Downloads](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/downloads)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
+[![Latest Unstable Version](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/v/unstable)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
+[![License](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/license)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
+[![composer.lock](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/composerlock)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
 
 ## Installation
 
@@ -14,7 +19,7 @@ $ php composer.phar require edofre/laravel-softdelete-cleanup
 or add
 
 ```
-"edofre/laravel-softdelete-cleanup": "V1.0.1"
+"edofre/laravel-softdelete-cleanup": "V1.1.0"
 ```
 
 to the ```require``` section of your `composer.json` file.
