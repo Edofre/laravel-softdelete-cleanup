@@ -1,6 +1,6 @@
 <?php
 
-namespace Edofre\Sluggable\Test\Integration;
+namespace Edofre\SoftdeleteCleanup\Test\Integration;
 
 use File;
 use Illuminate\Database\Schema\Blueprint;
@@ -13,7 +13,7 @@ use Orchestra\Testbench\TestCase as Orchestra;
  */
 abstract class TestCase extends Orchestra
 {
-    /** @var \Edofre\Sluggable\Test\Integration\TestModel */
+    /** @var \Edofre\SoftdeleteCleanup\Test\Integration\TestModel */
     protected $testModel;
 
     /**
@@ -35,6 +35,8 @@ abstract class TestCase extends Orchestra
         $app['db']->connection()->getSchemaBuilder()->create('test_models', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name')->nullable();
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
             $table->timestamp('deleted_at')->nullable();
         });
     }
@@ -45,6 +47,17 @@ abstract class TestCase extends Orchestra
     public function getTempDirectory()
     {
         return __DIR__ . '/temp';
+    }
+
+    /**
+     * @param \Illuminate\Foundation\Application $app
+     * @return array
+     */
+    protected function getPackageProviders($app)
+    {
+        return [
+            \Edofre\SoftdeleteCleanup\Test\SoftdeleteCleanupTestServiceProvider::class,
+        ];
     }
 
     /**

@@ -19,5 +19,4 @@ class TestModel extends Model
     protected $table = 'test_models';
     /** @var array */
     protected $guarded = [];
-
 }

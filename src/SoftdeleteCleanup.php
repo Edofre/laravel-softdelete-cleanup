@@ -28,13 +28,12 @@ class SoftdeleteCleanup extends \Illuminate\Console\Command
         if (class_exists($class_name)) {
             // Delete all the model
             $this->deleteModels($class_name);
+            // Output the numbe of items successfully deleted
+            $this->info("$this->item_count items deleted");
         } else {
+            // Output the error
             $this->error("Class not found in system");
-            return false;
         }
-
-        // Notify the CLI that we're done
-        $this->info("$this->item_count items deleted");
     }
 
     /**
