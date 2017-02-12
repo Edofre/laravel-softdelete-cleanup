@@ -5,7 +5,6 @@
 [![Latest Unstable Version](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/v/unstable)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
 [![License](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/license)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
 [![composer.lock](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/composerlock)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
-
 [![Build Status](https://travis-ci.org/Edofre/laravel-softdelete-cleanup.svg?branch=master)](https://travis-ci.org/Edofre/laravel-softdelete-cleanup)
 [![Code Climate](https://codeclimate.com/github/Edofre/laravel-softdelete-cleanup/badges/gpa.svg)](https://codeclimate.com/github/Edofre/laravel-softdelete-cleanup)
 
