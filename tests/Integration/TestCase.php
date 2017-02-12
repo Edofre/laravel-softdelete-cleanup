@@ -50,6 +50,17 @@ abstract class TestCase extends Orchestra
     }
 
     /**
+     * @param \Illuminate\Foundation\Application $app
+     * @return array
+     */
+    protected function getPackageProviders($app)
+    {
+        return [
+            \Edofre\SoftdeleteCleanup\Test\SoftdeleteCleanupTestServiceProvider::class,
+        ];
+    }
+
+    /**
      * @param Application $app
      */
     protected function getEnvironmentSetUp($app)
