@@ -6,6 +6,9 @@
 [![License](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/license)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
 [![composer.lock](https://poser.pugx.org/edofre/laravel-softdelete-cleanup/composerlock)](https://packagist.org/packages/edofre/laravel-softdelete-cleanup)
 
+[![Build Status](https://travis-ci.org/Edofre/laravel-softdelete-cleanup.svg?branch=master)](https://travis-ci.org/Edofre/laravel-softdelete-cleanup)
+[![Code Climate](https://codeclimate.com/github/Edofre/laravel-softdelete-cleanup/badges/gpa.svg)](https://codeclimate.com/github/Edofre/laravel-softdelete-cleanup)
+
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
