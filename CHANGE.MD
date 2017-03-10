@@ -1,6 +1,12 @@
 Change Log: `laravel-softdelete-cleanup`
 ========================================
 
+## Version 1.1.1
+
+**Date:** 07-Feb-2017
+
+- Include proper name in READMe
+
 ## Version 1.1.0
 
 **Date:** 07-Feb-2017
