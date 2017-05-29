@@ -21,7 +21,7 @@ $ php composer.phar require edofre/laravel-softdelete-cleanup
 or add
 
 ```
-"edofre/laravel-softdelete-cleanup": "V1.1.1"
+"edofre/laravel-softdelete-cleanup": "V1.2.0"
 ```
 
 to the ```require``` section of your `composer.json` file.
