@@ -43,6 +43,13 @@ The following command will then remove all the trashed items from the User, note
 php artisan db:softdelete-cleanup App\\Models\\User
 ```
 
+## Tests
+
+Run the tests by executing the following command:
+```
+composer test
+```
+
 ## Feature requests
 
 * Set the number of days from which the items should be deleted
