@@ -5,6 +5,12 @@ Change Log: `laravel-softdelete-cleanup`
 
 **Date:** 07-Feb-2017
 
+- Make sure the tests are properly executed on .travis
+
+## Version 1.1.1
+
+**Date:** 07-Feb-2017
+
 - Include proper name in READMe
 
 ## Version 1.1.0
