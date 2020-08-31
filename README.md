@@ -22,20 +22,10 @@ $ php composer.phar require edofre/laravel-softdelete-cleanup
 or add
 
 ```
-"edofre/laravel-softdelete-cleanup": "V1.2.0"
+"edofre/laravel-softdelete-cleanup": "V1.3.0"
 ```
 
 to the ```require``` section of your `composer.json` file.
-
-## Configuration
-
-Add the console command to the $commands array in your /app/Console/Kernel.php
-```php
-protected $commands = [
-        \Edofre\SoftdeleteCleanup\SoftdeleteCleanup::class,
-    ];
-
-```
 
 ## Executing
 
