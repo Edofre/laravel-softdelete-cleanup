@@ -36,5 +36,12 @@
   },
   "scripts": {
     "test": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+          "Edofre\\SoftdeleteCleanup\\SoftdeleteCleanupServiceProvider"
+      ]
+    }
   }
 }
